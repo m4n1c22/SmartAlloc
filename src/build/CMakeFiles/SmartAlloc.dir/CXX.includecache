@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/SmartAlloc.h
+constants.h
+../include/constants.h
+
+/home/mobaxterm/Dev/SmartAlloc/src/test/test1.cpp
+SmartAlloc.h
+/home/mobaxterm/Dev/SmartAlloc/src/test/SmartAlloc.h
+

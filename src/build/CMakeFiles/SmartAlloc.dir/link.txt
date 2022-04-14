@@ -1,0 +1,1 @@
+/bin/c++.exe    -Wl,--enable-auto-import CMakeFiles/SmartAlloc.dir/test/test1.cpp.o  -o SmartAlloc.exe -Wl,--out-implib,libSmartAlloc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
